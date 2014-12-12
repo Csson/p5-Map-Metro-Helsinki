@@ -38,7 +38,8 @@
       },
       "runtime" : {
          "requires" : {
-            "Map::Metro" : "0.1600",
+            "Encode" : "0",
+            "Map::Metro" : "0.1700",
             "perl" : "5.020000"
          }
       },
@@ -49,6 +50,6 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.1961"
+   "version" : "0.1982"
 }
 

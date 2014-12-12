@@ -7,16 +7,19 @@ Map::Metro::Plugin::Map::Helsinki - Map::Metro map for Helsinki
     use Map::Metro;
     my $graph = Map::Metro->new('Helsinki')->parse;
 
+    my $graph2 = Map::Metro->new('Helsinki', hooks => 'Helsinki::Swedish')->parse;
+    # now the station names are in Swedish
+
 # DESCRIPTION
 
 See [Map::Metro](https://metacpan.org/pod/Map::Metro) for usage information.
 
+This distribution also includes the `Map::Metro::Plugin::Hook::Helsinki::Swedish` hook, which if applied
+translates all station names into Swedish.
+
 # Status
 
-Per 2014-dec-12 it contains:
-
-- All seven subway lines ([wikipedia](https://en.wikipedia.org/wiki/Helsinki_metro))
-- The 'Spårväg City' tram line ([wikipedia](https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City))
+Per 2014-dec-12 it contains the two branches of the Helsinki metro ([wikipedia](https://en.wikipedia.org/wiki/Helsinki_Metro))
 
 # AUTHOR
 
