@@ -1,5 +1,5 @@
 {
-   "abstract" : "Map::Metro map for Stockholm",
+   "abstract" : "Map::Metro map for Helsinki",
    "author" : [
       "Erik Carlsson <info@code301.com>"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Map-Metro-Plugin-Map-Stockholm",
+   "name" : "Map-Metro-Plugin-Map-Helsinki",
    "no_index" : {
       "directory" : [
          "t",
@@ -38,7 +38,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Map::Metro" : "1.1600",
+            "Map::Metro" : "0.1600",
             "perl" : "5.020000"
          }
       },

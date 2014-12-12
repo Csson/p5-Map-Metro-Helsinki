@@ -9,7 +9,7 @@ package Map::Metro::Plugin::Map::Helsinki  {
 
     with 'Map::Metro::Plugin::Map';
 
-    has Helsinki => (
+    has helsinki => (
         is => 'ro',
         isa => AbsFile,
         default => sub { path(dist_dir('Map-Metro-Plugin-Map-Helsinki'))->child('map-helsinki.metro')->absolute },
