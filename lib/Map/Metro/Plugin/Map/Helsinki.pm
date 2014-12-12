@@ -1,6 +1,6 @@
 use 5.20.0;
 
-package Map::Metro::Plugin::Map::Stockholm  {
+package Map::Metro::Plugin::Map::Helsinki  {
 
     use Moose::Role;
     use File::ShareDir 'dist_dir';
@@ -9,10 +9,10 @@ package Map::Metro::Plugin::Map::Stockholm  {
 
     with 'Map::Metro::Plugin::Map';
 
-    has stockholm => (
+    has Helsinki => (
         is => 'ro',
         isa => AbsFile,
-        default => sub { path(dist_dir('Map-Metro-Plugin-Map-Stockholm'))->child('map-stockholm.metro')->absolute },
+        default => sub { path(dist_dir('Map-Metro-Plugin-Map-Helsinki'))->child('map-helsinki.metro')->absolute },
     );
 }
 
@@ -24,14 +24,12 @@ __END__
 
 =head1 NAME
 
-Map::Metro::Plugin::Map::Stockholm - Map::Metro map for Stockholm
-
-=for html <p><a style="float: left;" href="https://travis-ci.org/Csson/p5-Map-Metro-Plugin-Map-Stockholm"><img src="https://travis-ci.org/Csson/p5-Map-Metro-Plugin-Map-Stockholm.svg?branch=master">&nbsp;</a>
+Map::Metro::Plugin::Map::Helsinki - Map::Metro map for Helsinki
 
 =head1 SYNOPSIS
 
     use Map::Metro;
-    my $graph = Map::Metro->new('Stockholm')->parse;
+    my $graph = Map::Metro->new('Helsinki')->parse;
 
 =head1 DESCRIPTION
 
@@ -39,11 +37,11 @@ See L<Map::Metro> for usage information.
 
 =head1 Status
 
-Per 2014-dec-10 it contains:
+Per 2014-dec-12 it contains:
 
 =over 4
 
-=item All seven subway lines (L<wikipedia|https://en.wikipedia.org/wiki/Stockholm_metro>)
+=item All seven subway lines (L<wikipedia|https://en.wikipedia.org/wiki/Helsinki_metro>)
 
 =item The 'Spårväg City' tram line (L<wikipedia|https://en.wikipedia.org/wiki/Sp%C3%A5rv%C3%A4g_City>)
 
