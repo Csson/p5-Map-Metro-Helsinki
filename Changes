@@ -1,4 +1,28 @@
 Revision history for Map-Metro-Plugin-Map-Helsinki
 
 {{$NEXT}}
-	- Initial release
+ [API Changes]
+
+ [Bug Fixes]
+
+ [Documentation]
+
+ [Enhancements]
+ - Includes detailed line information
+ - Includes visualization
+
+ [Meta]
+ - Added github repo to metadata
+ - Added Moose as a prereq
+
+ [New Features]
+
+ [Revision]
+
+0.1983 2014-12-13T21:41:18Z CET
+ [Enhancements]
+ - Test undiacriticed station names
+
+0.1982 2014-12-12T23:55:59Z CET
+ - Initial release
+
