@@ -2,6 +2,10 @@
 
 Map::Metro::Plugin::Map::Helsinki - Map::Metro map for Helsinki
 
+# VERSION
+
+Version 0.1984, released 2015-01-16.
+
 # SYNOPSIS
 
     use Map::Metro;
@@ -19,17 +23,27 @@ translates all station names into Swedish.
 
 # Status
 
-Per 2014-dec-12 it contains the two branches of the Helsinki metro ([wikipedia](https://en.wikipedia.org/wiki/Helsinki_Metro))
+See [Map::Metro::Plugin::Map::Helsinki::Lines](https://metacpan.org/pod/Map::Metro::Plugin::Map::Helsinki::Lines)
+
+This map includes:
+
+- The two branches of the Helsinki metro \[[wikipedia](https://en.wikipedia.org/wiki/Helsinki_Metro)\]
+
+# SOURCE
+
+[https://github.com/Csson/p5-Map-Metro-Helsinki](https://github.com/Csson/p5-Map-Metro-Helsinki)
+
+# HOMEPAGE
+
+[https://metacpan.org/release/Map-Metro-Plugin-Map-Helsinki](https://metacpan.org/release/Map-Metro-Plugin-Map-Helsinki)
 
 # AUTHOR
 
 Erik Carlsson <info@code301.com>
 
-# COPYRIGHT
+# COPYRIGHT AND LICENSE
 
-Copyright 2014 - Erik Carlsson
+This software is copyright (c) 2015 by Erik Carlsson <info@code301.com>.
 
-# LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
