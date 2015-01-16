@@ -1,5 +1,9 @@
 use Map::Metro::Standard::Moops;
 
+# VERSION
+# PODCLASSNAME
+# ABSTRACT: Use the Swedish station names
+
 class Map::Metro::Plugin::Hook::Helsinki::Swedish using Moose {
 
     use Map::Metro::Hook;
