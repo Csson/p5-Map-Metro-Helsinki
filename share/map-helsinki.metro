@@ -25,8 +25,8 @@ Vuosaari
 --transfers
 
 --lines
-NB|North|North branch
-SB|South|South branch
+NB|North|North branch|color: #cc7220
+SB|South|South branch|color: #f4a350
 
 --segments
 NB,SB|Ruoholahti|Kamppi
