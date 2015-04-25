@@ -2,9 +2,11 @@
 
 Map::Metro::Plugin::Map::Helsinki - Map::Metro map for Helsinki
 
+![Requires Perl 5.16+](https://img.shields.io/badge/perl-5.16+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Map-Metro-Helsinki.svg?branch=master)](https://travis-ci.org/Csson/p5-Map-Metro-Helsinki)
+
 # VERSION
 
-Version 0.1984, released 2015-01-16.
+Version 0.1985, released 2015-04-25.
 
 # SYNOPSIS
 
