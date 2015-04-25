@@ -6,7 +6,7 @@ Map::Metro::Plugin::Map::Helsinki - Map::Metro map for Helsinki
 
 # VERSION
 
-Version 0.1985, released 2015-04-25.
+Version 0.1985, released 2015-04-26.
 
 # SYNOPSIS
 
