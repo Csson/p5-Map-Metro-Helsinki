@@ -8,16 +8,21 @@ Revision history for Map-Metro-Plugin-Map-Helsinki
  [Documentation]
 
  [Enhancements]
+
+ [Meta]
+
+ [New Features]
+
+ [Revision]
+
+0.1984 2015-01-16T19:39:13Z CET
+ [Enhancements]
  - Includes detailed line information
  - Includes visualization
 
  [Meta]
  - Added github repo to metadata
  - Added Moose as a prereq
-
- [New Features]
-
- [Revision]
 
 0.1983 2014-12-13T21:41:18Z CET
  [Enhancements]
