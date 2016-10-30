@@ -2,11 +2,18 @@
 
 Map::Metro::Plugin::Map::Helsinki - Map::Metro map for Helsinki
 
-![Requires Perl 5.16+](https://img.shields.io/badge/perl-5.16+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Map-Metro-Helsinki.svg?branch=master)](https://travis-ci.org/Csson/p5-Map-Metro-Helsinki)
+<div>
+    <p>
+    <img src="https://img.shields.io/badge/perl-5.10+-blue.svg" alt="Requires Perl 5.10+" />
+    <a href="https://travis-ci.org/Csson/p5-Map-Metro-Helsinki"><img src="https://api.travis-ci.org/Csson/p5-Map-Metro-Helsinki.svg?branch=master" alt="Travis status" /></a>
+    <a href="http://cpants.cpanauthors.org/release/CSSON/Map-Metro-Plugin-Map-Helsinki-0.1987"><img src="http://badgedepot.code301.com/badge/kwalitee/CSSON/Map-Metro-Plugin-Map-Helsinki/0.1987" alt="Distribution kwalitee" /></a>
+    <a href="http://matrix.cpantesters.org/?dist=Map-Metro-Plugin-Map-Helsinki%200.1987"><img src="http://badgedepot.code301.com/badge/cpantesters/Map-Metro-Plugin-Map-Helsinki/0.1987" alt="CPAN Testers result" /></a>
+    </p>
+</div>
 
 # VERSION
 
-Version 0.1985, released 2015-04-26.
+Version 0.1987, released 2016-10-30.
 
 # SYNOPSIS
 
@@ -45,7 +52,7 @@ Erik Carlsson <info@code301.com>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2015 by Erik Carlsson <info@code301.com>.
+This software is copyright (c) 2016 by Erik Carlsson.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
