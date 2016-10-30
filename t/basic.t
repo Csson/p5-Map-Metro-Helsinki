@@ -1,6 +1,6 @@
+use 5.10.0;
 use strict;
 use Test::More;
-use feature ':5.16';
 
 use Map::Metro;
 use utf8;
