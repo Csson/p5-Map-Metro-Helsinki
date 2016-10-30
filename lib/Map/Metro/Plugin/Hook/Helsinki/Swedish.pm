@@ -6,7 +6,7 @@ package Map::Metro::Plugin::Hook::Helsinki::Swedish;
 
 # ABSTRACT: Use the Swedish station names
 # AUTHORITY
-our $VERSION = '0.1987';
+our $VERSION = '0.1988';
 
 use Moose;
 use namespace::autoclean;

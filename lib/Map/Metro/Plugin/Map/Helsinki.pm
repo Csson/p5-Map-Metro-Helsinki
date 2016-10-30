@@ -6,7 +6,7 @@ package Map::Metro::Plugin::Map::Helsinki;
 
 # ABSTRACT: Map::Metro map for Helsinki
 # AUTHORITY
-our $VERSION = '0.1987';
+our $VERSION = '0.1988';
 
 use Moose;
 with 'Map::Metro::Plugin::Map';
