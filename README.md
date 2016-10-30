@@ -8,6 +8,7 @@ Map::Metro::Plugin::Map::Helsinki - Map::Metro map for Helsinki
     <a href="https://travis-ci.org/Csson/p5-Map-Metro-Helsinki"><img src="https://api.travis-ci.org/Csson/p5-Map-Metro-Helsinki.svg?branch=master" alt="Travis status" /></a>
     <a href="http://cpants.cpanauthors.org/release/CSSON/Map-Metro-Plugin-Map-Helsinki-0.1987"><img src="http://badgedepot.code301.com/badge/kwalitee/CSSON/Map-Metro-Plugin-Map-Helsinki/0.1987" alt="Distribution kwalitee" /></a>
     <a href="http://matrix.cpantesters.org/?dist=Map-Metro-Plugin-Map-Helsinki%200.1987"><img src="http://badgedepot.code301.com/badge/cpantesters/Map-Metro-Plugin-Map-Helsinki/0.1987" alt="CPAN Testers result" /></a>
+    <img src="https://img.shields.io/badge/coverage-88.2%-orange.svg" alt="coverage 88.2%" />
     </p>
 </div>
 

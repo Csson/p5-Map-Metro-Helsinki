@@ -17,6 +17,7 @@ plugins:
   
   - +replace_plugin: TravisYML
     +with: TravisYML
+    sudo: 1
     perl_version: 5.10 5.16 5.20
     post_before_install: sudo apt-get install graphviz
 
