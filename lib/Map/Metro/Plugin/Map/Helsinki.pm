@@ -1,26 +1,25 @@
-use 5.16.0;
+use 5.10.0;
 use strict;
 use warnings;
 
-package Map::Metro::Plugin::Map::Helsinki  {
+package Map::Metro::Plugin::Map::Helsinki;
 
-    # VERSION
-    # ABSTRACT: Map::Metro map for Helsinki
+# ABSTRACT: Map::Metro map for Helsinki
+# AUTHORITY
+our $VERSION = '0.1987';
 
-    use Moose;
-    with 'Map::Metro::Plugin::Map';
+use Moose;
+with 'Map::Metro::Plugin::Map';
 
-    has '+mapfile' => (
-        default => 'map-helsinki.metro',
-    );
-    sub map_version {
-        return $VERSION;
-    }
-    sub map_package {
-        return __PACKAGE__;
-    }
+has '+mapfile' => (
+    default => 'map-helsinki.metro',
+);
+sub map_version {
+    return $VERSION;
 }
-
+sub map_package {
+    return __PACKAGE__;
+}
 
 1;
 
