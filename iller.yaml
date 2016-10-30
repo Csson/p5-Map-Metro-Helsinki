@@ -7,16 +7,17 @@ header:
 prereqs:
   runtime:
     requires:
-      - perl: 5.016000
-      - Moose::Role: 2.0000
-      - Map::Metro: 0.1900
+      - perl: 5.010000
+      - Moose
+      - Map::Metro: 0.2405
+      - namespace::autoclean
 
 plugins:
   - +config: Author::CSSON
   
-  - +add_plugin: TravisYML
-    +before: Git::Tag
-    perl_version: 5.16 5.20
+  - +replace_plugin: TravisYML
+    +with: TravisYML
+    perl_version: 5.10 5.16 5.20
     post_before_install: sudo apt-get install graphviz
 
   - +extend_plugin: Git::GatherDir
